@@ -14,4 +14,16 @@ nombres para unidades de montaje. A continuación creo el directorio y monto la 
 
 #### Ejercicio 2 ####
 
+1.- Mostrar los puentes configurados en el sistema operativo.
+
+Para mostrar los puentes que tenemos configurados es nuestro SO, introducimos por la terminal la siguiente orden, una vez
+instalado el paquete *bridge-utils* :
+
+
+![imagen2](https://dl.dropbox.com/s/idg5lsm5dbaqugh/Captura%20de%20pantalla%20de%202013-10-25%2010%3A58%3A15.png)
+
+
+2.- Crear un interfaz virtual y asignarlo al interfaz de la tarjeta wifi, si se tiene, o del fijo, si no se tiene.
+
+
 #### Ejercicio 3 ####
