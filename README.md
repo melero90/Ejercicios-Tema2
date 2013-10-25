@@ -1,6 +1,6 @@
-### Tema 2 
+Tema 2
+======
 
 
-Ejercicio 1
-===========
+#### Ejercicio 1
 
