@@ -25,5 +25,21 @@ instalado el paquete *bridge-utils* :
 
 2.- Crear un interfaz virtual y asignarlo al interfaz de la tarjeta wifi, si se tiene, o del fijo, si no se tiene.
 
+Instalamos el paquete siguiente:
+
+> sudo apt-get install bridge-utils
+
+Creamos el puente con la opción como se indica:
+
+> sudo brctl addbr alcantara
+
+Lo asignamos a la interfaz de la tarjeta wifi mediante la orden:
+
+> brctl addif alcantara eth0
+
+Mostramos nuestras las interfaces con la siguiente orden:
+
+> ip addr show
+
 
 #### Ejercicio 3 ####
