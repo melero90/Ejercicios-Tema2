@@ -73,3 +73,12 @@ Ahora procedo a instalar el sistema fedora-core-4 (32bits):
 > sudo rinse --arch=i386 --distribution fedora-core-4 --directory /home/jaulas/fedora
 
 
+#### Ejercicio 4 ####
+
+
+#### Ejercicio 5 ####
+
+
+#### Ejercicio 6 ####
+
+
