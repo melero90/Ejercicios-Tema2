@@ -87,7 +87,15 @@ Una vez instalado accedemos al sistema con la siguiente orden:
 > sudo chroot /home/jaulas/debian/
 
 Listamos su contenido para comprobar que todo se ha instalado correctamente. Después intentamos ejecutar la aplicación
-top y gedit, por ejemplo:
+top, por ejemplo:
+
+![imagen3](https://dl.dropbox.com/s/c8qmpbp5u5qj4bt/Captura%20de%20pantalla%20de%202013-11-04%2012%3A56%3A56.png)
+
+Corregimos el error y ejecutamos *top*
+
+> mount -t proc proc /proc
+
+![imagen4](https://dl.dropbox.com/s/du94low4zg0kwfq/Captura%20de%20pantalla%20de%202013-11-04%2013%3A02%3A16.png)
 
 #### Ejercicio 5 ####
 
