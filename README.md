@@ -75,6 +75,19 @@ Ahora procedo a instalar el sistema fedora-core-4 (32bits):
 
 #### Ejercicio 4 ####
 
+Instalar algun sistema *debianita* y configurarlo para su uso. Trabajando desde terminal, probar a ejecutar alguna 
+aplicación  o instalar las herramientas necesarias para compilar una y ejecutarla.
+
+Instalo el sistema de la siguiente forma:
+
+> sudo debootstrap --arch=amd64 wheezy /home/jaulas/debian http://ftp.debian.org/debian/
+
+Una vez instalado accedemos al sistema con la siguiente orden:
+
+> sudo chroot /home/jaulas/debian/
+
+Listamos su contenido para comprobar que todo se ha instalado correctamente. Después intentamos ejecutar la aplicación
+top y gedit, por ejemplo:
 
 #### Ejercicio 5 ####
 
