@@ -43,3 +43,33 @@ Mostramos nuestras las interfaces con la siguiente orden:
 
 
 #### Ejercicio 3 ####
+
+1. Usar debootstrap (o herramienta similar en otra distro) para crear un sistema mínimo que se pueda ejecutar más 
+adelante.
+
+Lo primero que haremos será instalar el paquete *debootstrap*:
+
+> sudo apt-get install debootstrap
+
+El siguiente paso es crearlo con la siguiente orden: (32bits)
+
+> sudo debootstrap --arch=i386 quantal /home/jaulas/quantal/ http://archive.ubuntu.com/ubuntu
+
+
+2. Experimentar con la creación de un sistema Fedora dentro de Debian usando Rinse.
+
+Instalamos Rinse:
+
+> sudo apt-get install rinse
+
+> rinse --list-distributions
+
+Esto último nos muestra las distribuciones que podemos instalar.
+
+Ahora procedo a instalar el sistema fedora-core-4 (32bits):
+
+> sudo mkdi /home/jaulas/fedora
+
+> sudo rinse --arch=i386 --distribution fedora-core-4 --directory /home/jaulas/fedora
+
+
