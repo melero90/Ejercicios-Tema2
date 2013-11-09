@@ -125,4 +125,30 @@ Ya esta funcionando:
 
 #### Ejercicio 6 ####
 
+Crear una jaula y enjaular un usuario usando *jailkit*, que previamente se habrá tenido que instalar.
+
+Lo primero será instalar el paquete *jailkit*. Para ello he utilizado el siguiente material:
+
+http://www.trey.es/blog/linux/usuarios-enjaulados-para-ssh-jailkit/
+
+> ./configure
+make
+sudo make install
+
+Antes de instalar la jaula debemos crear un sistema de ficheros poseido por root:
+
+> sudo mkdir /home/jaula/ejercicio6
+chown -R root:root /home/jaula/ejercicio6
+
+Ahora creamos la jaula:
+
+> sudo jk_init -v -j /home/jaula/ejercicio6/ jk_lsh basicshell netutils editors
+
+Con la opcion -v muestra todos los mensajes y la opcion -j indica el directorio donde se encuentra la jaula.
+
+El siguiente paso es crear un usuario y "enjaularlo":
+
+> sudo adduser someuser
+
+> sudo jk_jailuser -m -j home/jaula/ejercicio6/ someuser/
 
