@@ -97,6 +97,19 @@ Corregimos el error y ejecutamos *top*
 
 ![imagen4](https://dl.dropbox.com/s/du94low4zg0kwfq/Captura%20de%20pantalla%20de%202013-11-04%2013%3A02%3A16.png)
 
+
+Vamos a instalar C++ para crear un programa y ejecutarlo en esta máquina. Para ello:
+
+> apt-get install c++
+
+Ahora instalamos el editor de textos gedit:
+
+> apt-get install gedit
+
+![imagen](https://dl.dropbox.com/s/gwhstq44t9z02z0/instalando_gedit_jaula.png)
+
+Ahora lanzamos el editor y escribimos un programita simple, lo compilamos y ejecutamos
+
 #### Ejercicio 5 ####
 
 Instalar una jaula chroot para ejecutar el servidor web de altas prestaciones nginx.
