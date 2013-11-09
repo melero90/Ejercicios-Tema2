@@ -99,6 +99,29 @@ Corregimos el error y ejecutamos *top*
 
 #### Ejercicio 5 ####
 
+Instalar una jaula chroot para ejecutar el servidor web de altas prestaciones nginx.
+
+1. Accedemos a la jaula como ya sabemos:
+
+> sudo chroot /home/jaulas/debian/
+
+2. Instalamos el SWAP nginx:
+
+> apt-get install nginx
+
+![imagen5_1](https://dl.dropbox.com/s/slp9vje4zjzxjst/5_1.png)
+
+3. Ejecutamos:
+
+> service nginx start
+
+![imagen5_2](https://dl.dropbox.com/s/2cf5r4vw8c9fs6p/5_2.png)
+
+Ya esta funcionando
+
+> service nginx status
+
+![imagen5_3](https://dl.dropbox.com/s/hj7ocx1iohil0vq/5_3.png)
 
 #### Ejercicio 6 ####
 
